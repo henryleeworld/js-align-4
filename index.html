@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="連接四" />
+        <meta property="og:description" content="玩家的目標是形成一個水平，垂直或對角線的四個籌碼連接到一條線，而你必須防止電腦做同樣的。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet" />
+        <link rel="stylesheet" href="css/align-4.css" />
+        <title>連接四</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
+                <div class="sidebar">
+                    <h1>連接四</h1>
+                    <div class="panel dif">
+                        <h2>難度</h2>
+                        <div class="dif-options">
+                            <div>
+                                <input id="dif1" type="radio" name="dif-options" value="1" />
+                                <label for="dif1">1</label>
+                            </div>
+                            <div>
+                                <input id="dif2" type="radio" name="dif-options" value="2" />
+                                <label for="dif2">2</label>
+                            </div>
+                            <div>
+                                <input id="dif3" type="radio" name="dif-options" value="3" checked />
+                                <label for="dif3">3</label>
+                            </div>
+                            <div>
+                                <input id="dif4" type="radio" name="dif-options" value="4" />
+                                <label for="dif4">4</label>
+                            </div>
+                            <div>
+                                <input id="dif5" type="radio" name="dif-options" value="5" />
+                                <label for="dif5">5</label>
+                            </div>
+                        </div>
+                        <div class="start">
+                            <button>開始遊戲</button>
+                        </div>
+                    </div>
+                    <div class="panel info">
+                        <h2></h2>
+                        <div class="blurb"></div>
+                        <div class="outlook"></div>
+                    </div>
+                </div>
+                <div class="board">
+                    <div class="lit-columns">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="lit-cells"></div>
+                    <div class="chips"></div>
+                    <div class="click-columns">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" defer></script>
+        <script src="js/align-4.js" defer></script>
+    </body>
+</html>
